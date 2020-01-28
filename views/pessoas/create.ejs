@@ -1,0 +1,19 @@
+<%- include ('../partials/header') %>
+
+<h1>Nova pessoa</h1>
+<p><a href="/pessoas">Voltar</a></p>
+
+<form method="POST">
+    <label for="nome"></label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+    <label for="nascimento"></label>
+    <input type="text" name="nascimento" id="nascimento" placeholder="Infome a data de nascimento">
+
+    <label for="cargo"></label>
+    <input type="text" name="cargo" id="cargo" placeholder="Digite seu cargo">
+
+    <button type="submit">Salvar</button>
+</form>
+
+<%- include ('../partials/footer') %>
